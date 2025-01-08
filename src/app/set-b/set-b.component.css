@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f0;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2e8b57; /* Forest Green */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e8f5e9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    color: #2e8b57; 
+}
+
+.form-control {
+    border: 1px solid #a5d6a7; 
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #2e8b57; 
+    outline: none;
+}
+
+.text-danger {
+    color: #d32f2f; 
+    font-size: 0.9em;
+}
+
+.btn-primary {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #1c5e3e;
+}
+
+.alert {
+    background-color: #c8e6c9; 
+    color: #2e8b57;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
